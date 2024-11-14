@@ -16,7 +16,7 @@ function Contacto() {
                                 <p className="fs-5 fs-md-1 fw-light text-uppercase mb-4 lh-sm">Os damos la bienvenida al mundo del Heavy Metal</p>
                                 <div className="contacto-social fs-5 fw-light ">
                                     <a href="tel:669546444" className=" fw-light d-block mb-2"><FontAwesomeIcon className="px-1" icon="fa-solid fa-phone" />Teléfono: 669 546 444</a>
-                                    <a href="https://www.instagram.com/salaspectrum/?hl=en" className="mb-2  d-block"><FontAwesomeIcon className="px-1" icon="fa-brands fa-instagram" />Instagram: salaspectrum</a>
+                                    <a target="_blank" href="https://www.instagram.com/salaspectrum/?hl=en" className="mb-2  d-block"><FontAwesomeIcon className="px-1" icon="fa-brands fa-instagram" />Instagram: salaspectrum</a>
                                     <a href="mailto:salaspectrum@gmail.com" className="mb-2 d-block" ><FontAwesomeIcon className="px-1" icon="fa-solid fa-envelope-open-text" />  Correo: salaspectrum@gmail.com</a>
                                     <a className="  d-block" href="https://goo.gl/maps/pwhXCFShkNd4QYsv5" target="_blank"> <FontAwesomeIcon className="px-1" icon="fa-solid fa-location-dot" />
                                         Dirección: Av. Ciclista Mariano Rojas, 16, 30009 Murcia</a>

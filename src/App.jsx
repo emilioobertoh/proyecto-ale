@@ -8,7 +8,6 @@ import { Contacto } from './components/Contacto';
 import { Discordia } from './components/Discordia';
 import './App.css';
 
-import { Container } from 'react-bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -23,6 +22,7 @@ import {
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 
+// Add icons to the FontAwesome library
 library.add(
   fab,
   faCheckSquare,
@@ -37,6 +37,7 @@ library.add(
   faEnvelope
 );
 
+// Define your routes using `createBrowserRouter`
 const router = createBrowserRouter([
   {
     path: '/',
@@ -84,9 +85,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Container>
       <RouterProvider router={router} />
-    </Container>
   );
 }
 
