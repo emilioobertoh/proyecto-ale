@@ -10,7 +10,7 @@ function Header() {
 
       <div className="header-container w-100 d-none d-sm-block">
         <header className="container d-flex align-items-center justify-content-between">
-          <img src="./src/assets/img/logo.svg" />
+          <img src="../assets/img/logo.svg" />
           <nav>
             <ul className="menu-pc d-flex">
               <li><a className="menu-enlace" href='/'> Inicio</a></li>
