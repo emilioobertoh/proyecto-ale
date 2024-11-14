@@ -8,6 +8,8 @@ import { Contacto } from './components/Contacto';
 import { Discordia } from './components/Discordia';
 import './App.css';
 
+import ErrorPage from "./error-page";
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -41,16 +43,12 @@ library.add(
 const router = createBrowserRouter([
   {
     path: '/',
-    element: (
-      <>
-        <Header />
-        <Inicio />
-        <Footer />
-      </>
-    ),
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    
   },
-  {
-    path: '/conciertos',
+{
+  path: '/conciertos',
     element: (
       <>
         <Header />
@@ -59,8 +57,8 @@ const router = createBrowserRouter([
       </>
     ),
   },
-  {
-    path: '/contacto',
+{
+  path: '/contacto',
     element: (
       <>
         <Header />
@@ -69,8 +67,8 @@ const router = createBrowserRouter([
       </>
     ),
   },
-  {
-    path: '/discordia',
+{
+  path: '/discordia',
     element: (
       <>
         <Header />
@@ -85,7 +83,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   );
 }
 

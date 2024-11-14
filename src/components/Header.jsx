@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Outlet, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
           <nav>
             <ul className="menu-pc d-flex">
               <li><a className="menu-enlace" href='/'> Inicio</a></li>
-              <li><a className="menu-enlace" href='/conciertos'>Conciertos</a></li>
+              <li><a className="menu-enlace" href="/conciertos">Conciertos</a></li>
               <li><a className="menu-enlace" href='/discordia'>Discordia</a></li>
               <li><a className="menu-enlace" href='/contacto'>Contacto</a></li>
             </ul>

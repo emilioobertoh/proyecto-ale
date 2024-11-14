@@ -1,7 +1,7 @@
-import { Header } from "./Header";
+
 import { EventsList } from "./EventsList";
 import { CustomCarousel } from "./CustomCarousel";
-import { Footer } from "./Footer";
+
 
 import './inicio.css'
 function Inicio() {
