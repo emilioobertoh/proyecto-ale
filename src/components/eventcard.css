@@ -1,0 +1,66 @@
+/*General*/
+.event {
+    color: #fff;
+    margin: 50px 40px !important;
+    
+    border: 1px solid #a8a8a8;
+    border-left: 5px solid #ffd700;
+    padding: 10px 0px;
+}
+
+
+/*Box date*/
+.box-date {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+.box-date *{
+    margin: 0px 0px 5px 0px;
+    line-height: 1.1em;
+    text-align: center;
+}
+.box-date .i-date{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.box-date .i-month{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box-date .i-day{
+    font-size: 0.7rem;
+}
+
+/*Info*/
+/*.box-info{
+    padding-right: 100px !important;
+}*/
+.box-info h3{
+    font-size: 2.7rem;
+}
+.box-info .info-p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+.box-info .b-buy{
+    width: 100%;
+    border-bottom: #ffd700 solid 2px;
+    display: block;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+/*Thumbnail*/
+.event-thumb {
+    width: 100%;
+    border-radius: 15px;
+    text-align:right ;
+    object-fit: cover;
+    height: 250px;
+}

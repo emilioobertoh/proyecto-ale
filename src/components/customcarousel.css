@@ -1,0 +1,15 @@
+.cc-images{
+    border: 2px solid #fff;
+    padding: 0px !important;
+    border-radius: 25px;
+    object-fit: cover;
+    
+}
+@media (min-width: 768px) {
+    a.carousel-control-prev{
+        left: -106px;
+    }
+    a.carousel-control-next{
+        right: -106px;
+    }
+}

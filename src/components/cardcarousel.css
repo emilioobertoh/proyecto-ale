@@ -1,0 +1,22 @@
+.card-review{
+    width: 18rem;
+}
+.cards-carousel, .cards-carousel .card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.cards-carousel .card-img-top{
+    width: 80px !important;
+    
+    margin-top: 0px;
+}
+
+.cards-carousel .card-date{
+font-size: 0.8rem;
+}
+.cards-carousel .rating{
+    color: #F6BB06;
+}
+.review-title{
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}

@@ -1,0 +1,157 @@
+.portada h1 {
+    
+    text-align: center;
+    width: 80%;
+    line-height: 4rem;
+    color: #fff;
+}
+
+
+.bg-fuego {
+    background: #000;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 80px 0px;
+    /*
+   background-image: url(../assets/img/fondo-inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    */
+}
+
+.bg-fuego::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondo-inicio.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    /* Adjust the opacity value */
+    z-index: -1;
+    /* Ensure the image stays behind the content */
+}
+
+.portada-new {
+
+    background-image: url(../assets/img/fondo-fuego.png);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: contain;
+
+}
+
+.caja-trans .img-portada {
+    width: 90%;
+    max-width: 720px;
+    margin: 20px 0px;
+}
+
+
+.section-fire {
+    padding: 70px 0px;
+}
+
+.all-events {
+    background-color: #ffd700;
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.all-events:hover {
+    scale: 1;
+}
+
+/*La sala*/
+.box-sala {
+    max-width: 1700px !important;
+    padding: 70px 0px;
+}
+
+.photo-carousel h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/*CTA SALA*/
+
+
+
+.cta-sala-card-1,
+.cta-sala-card-2 {
+    border-radius: 20px;
+}
+
+
+
+.cta-sala-card-1 {
+
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FF00009E 0%, #000000 100%);
+    border: 2px solid #FF0000;
+}
+.cta-sala-card-2 {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #EA00FF8C 0%, #000000 100%);
+    border: 2px solid #250029;;
+}
+.cta-sala-card-2 h3{
+    font-size: 2.2rem;
+}
+.cta-sala-card-2 img{
+    max-width: 230px;
+}
+
+.reviews h2{
+    font-size: 4rem;
+}
+
+.cta-sala .cta-sala-card-1, .cta-sala
+.cta-sala-card-2{
+    min-height: 370px;
+}
+
+/*CTA INFO*/
+.cta-info{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000 0%, #212121 100%);
+}
+.cta-info img{
+    max-width: 280px;
+}
+.cta-img img{
+    max-height: 400px;
+    object-fit: cover;
+}
+.reviews {
+    
+}
+.reviews h2{
+    color:#FFD700;
+    border-bottom: 2px solid #fff;
+}
+
+
+/*MOVIL*/
+/*CABECERA*/
+
+@media (min-width: 768px) {
+    .portada h1{
+        font-size: 5rem !important;
+    }
+    .cta-sala h2 {
+        font-size: 5rem !important;
+        line-height: 1em !important;
+    }
+}

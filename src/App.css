@@ -1,0 +1,9 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Metal Mania', sans-serif;
+}
+
+main::before {
+    content: "";
+    display: block;
+    height: 108px; 
+background-color: black;}
