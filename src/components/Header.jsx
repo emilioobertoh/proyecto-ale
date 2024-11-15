@@ -14,10 +14,10 @@ function Header() {
           <img src="./src/assets/img/logo.svg" />
           <nav>
             <ul className="menu-pc d-flex">
-              <li><a className="menu-enlace" href='/'> Inicio</a></li>
-              <li><a className="menu-enlace" href="/conciertos">Conciertos</a></li>
-              <li><a className="menu-enlace" href='/discordia'>Discordia</a></li>
-              <li><a className="menu-enlace" href='/contacto'>Contacto</a></li>
+              <li><a className="menu-enlace" href='/sala-spectrum/'> Inicio</a></li>
+              <li><a className="menu-enlace" href="/sala-spectrum/conciertos">Conciertos</a></li>
+              <li><a className="menu-enlace" href='/sala-spectrum/discordia'>Discordia</a></li>
+              <li><a className="menu-enlace" href='/sala-spectrum/contacto'>Contacto</a></li>
             </ul>
           </nav>
           <div className="language-container d-flex align-items-center">

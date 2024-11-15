@@ -56,22 +56,22 @@ import { Contacto } from './components/Contacto.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/sala-spectrum/",
     element: <Inicio />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/conciertos",
+    path: "/sala-spectrum/conciertos",
     element: <Conciertos />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/discordia",
+    path: "/sala-spectrum/discordia",
     element: <Discordia />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/contacto",
+    path: "/sala-spectrum/contacto",
     element: <Contacto/>,
     errorElement: <ErrorPage />,
   }
