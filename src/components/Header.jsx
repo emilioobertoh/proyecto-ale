@@ -1,9 +1,7 @@
 import './header.css'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Outlet, Link } from "react-router-dom";
+import headerLogo from '../assets/img/logo.svg'
 
 function Header() {
   return (
@@ -11,7 +9,7 @@ function Header() {
 
       <div className="header-container w-100 d-none d-sm-block">
         <header className="container d-flex align-items-center justify-content-between">
-          <img src="./src/assets/img/logo.svg" />
+          <img src={headerLogo} />
           <nav>
             <ul className="menu-pc d-flex">
               <li><a className="menu-enlace" href='/sala-spectrum/'> Inicio</a></li>
@@ -44,9 +42,9 @@ function Header() {
                 <Nav.Link className="" href="/">Contacto</Nav.Link>
               </Nav>
             </Navbar.Collapse>
-         
         </Navbar>
       </div>
+
     </>
   );
 }
