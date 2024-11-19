@@ -14,7 +14,7 @@ function Header() {
           <img src={headerLogo} />
           <nav>
             <ul className="menu-pc d-flex">
-              <li><a className="menu-enlace" href='/sala-spectrum/'> Inicio</a></li>
+              <li><Link className="menu-enlace" to="/">Inicio</Link></li>
               <li><Link className="menu-enlace" to="/conciertos">Conciertos</Link></li>
               <li><Link className="menu-enlace" to="/discordia">Discordia</Link></li>
               <li><Link className="menu-enlace" to="/contacto">Contacto</Link></li>
