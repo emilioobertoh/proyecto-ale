@@ -76,9 +76,10 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
-    <RouterProvider router={router} />
-    <Footer />
+    <RouterProvider router={router}>
+      <Header />
+      <Footer />
+    </RouterProvider>
   </React.StrictMode>
 );
 /*
