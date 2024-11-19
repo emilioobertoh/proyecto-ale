@@ -58,17 +58,17 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/sala-spectrum/conciertos",
+    path: "/conciertos",
     element: <Conciertos />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/sala-spectrum/discordia",
+    path: "/discordia",
     element: <Discordia />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/sala-spectrum/contacto",
+    path: "/contacto",
     element: <Contacto/>,
     errorElement: <ErrorPage />,
   }
