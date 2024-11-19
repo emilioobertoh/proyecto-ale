@@ -14,7 +14,7 @@ function Header() {
           <nav>
             <ul className="menu-pc d-flex">
               <li><a className="menu-enlace" href='/sala-spectrum/'> Inicio</a></li>
-              <li><a className="menu-enlace" href="/sala-spectrum/conciertos">Conciertos</a></li>
+              <li><a className="menu-enlace" href="/conciertos">Conciertos</a></li>
               <li><a className="menu-enlace" href='/sala-spectrum/discordia'>Discordia</a></li>
               <li><a className="menu-enlace" href='/sala-spectrum/contacto'>Contacto</a></li>
             </ul>
