@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
@@ -51,9 +51,9 @@ import { Conciertos } from './components/Conciertos.jsx';
 import { Discordia } from './components/Discordia.jsx';
 import { Contacto } from './components/Contacto.jsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/sala-spectrum/",
+    path: "/",
     element: <Inicio />,
     errorElement: <ErrorPage />,
   },
