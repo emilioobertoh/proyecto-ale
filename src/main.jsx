@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
@@ -52,32 +52,36 @@ import { Discordia } from './components/Discordia.jsx';
 import { Contacto } from './components/Contacto.jsx';
 import { Root } from './components/Root.jsx';
 
-const router = createHashRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "",
+          element: <Inicio />,
+        },
+        {
+          path: "conciertos",
+          element: <Conciertos />,
+        },
+        {
+          path: "discordia",
+          element: <Discordia />,
+        },
+        {
+          path: "contacto",
+          element: <Contacto />,
+        }
+      ]
+    }
+  ],
   {
-    path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "",
-        element: <Inicio />,
-      },
-      {
-        path: "conciertos",
-        element: <Conciertos />,
-      },
-      {
-        path: "discordia",
-        element: <Discordia />,
-      },
-      {
-        path: "contacto",
-        element: <Contacto />,
-      }
-    ]
+    basename: "/sala-spectrum" // This sets your base path
   }
-]);
-
+);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
