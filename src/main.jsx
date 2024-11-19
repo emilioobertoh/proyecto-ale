@@ -79,7 +79,7 @@ const router = createBrowserRouter(
     }
   ],
   {
-    basename: "/sala-spectrum" // This sets your base path
+    basename: "/proyecto-ale" // This sets your base path
   }
 );
 ReactDOM.createRoot(document.getElementById("root")).render(
