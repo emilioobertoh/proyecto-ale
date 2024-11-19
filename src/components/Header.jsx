@@ -1,7 +1,8 @@
 import './header.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import headerLogo from '../assets/img/logo.svg'
+import headerLogo from '../assets/img/logo.svg';
+import langImg from '../assets/img/es.svg';
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
             </ul>
           </nav>
           <div className="language-container d-flex align-items-center">
-            <img src="./src/assets/img/es.svg" />
+            <img src={langImg} />
             <p>ES</p>
           </div>
         </header>
@@ -29,9 +30,9 @@ function Header() {
         <Navbar  expand="lg"  >
           
             <Navbar.Toggle aria-controls="basic-navbar-nav " />
-            <Navbar.Brand href="#home"> <img src="./src/assets/img/logo.svg" /></Navbar.Brand>
+            <Navbar.Brand href="#home"> <img src={headerLogo} /></Navbar.Brand>
             <div className="language-container d-flex align-items-center">
-              <img src="./src/assets/img/es.svg" />
+              <img src={langImg} />
               <p>ES</p>
             </div>
             <Navbar.Collapse className="bg-light" id="basic-navbar-nav ">
