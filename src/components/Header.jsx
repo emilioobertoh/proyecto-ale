@@ -31,7 +31,7 @@ function Header() {
         <Navbar  expand="lg"  >
           
             <Navbar.Toggle aria-controls="basic-navbar-nav " />
-            <Navbar.Brand as={Link} to="/"> <img src={headerLogo} /></Navbar.Brand>
+            <Navbar.Brand href="#home"> <img src={headerLogo} /></Navbar.Brand>
             <div className="language-container d-flex align-items-center">
               <img src={langImg} />
               <p>ES</p>
